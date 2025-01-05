@@ -30,7 +30,7 @@ A **Retrieval-Augmented Generation (RAG)** chatbot designed to answer domain-spe
 - **ChromaDB**: A vector database for storing and retrieving document embeddings.
 - **Ollama**: To host the **Llama 3 model** locally.
 
-### Machine Learning:
+### Artificial Intelligence:
 - **Llama 3**: Large language model for generating context-aware answers.
 - **Retrieval-Augmented Generation (RAG)**: To enhance LLM responses with domain-specific context.
 
@@ -42,15 +42,15 @@ A **Retrieval-Augmented Generation (RAG)** chatbot designed to answer domain-spe
 
 ## 📦 Installation
 
-1. Create and activate your virtual environment
-	# For Conda
+### 1. Create and activate your virtual environment
+	## For Conda:
 	conda create -n myenv python=3.10
 	conda activate myenv
 
-2. Run the following command to install all libraries listed in requirements.txt
+### 2. Run the following command to install all libraries listed in requirements.txt
 	pip install -r requirements.txt
 
-3. Navigate to the app directory and run the following to start the server:
+### 3. Navigate to the app directory and run the following to start the server:
 	uvicorn src.main:app
 
-4. The server is now started and user can send API request to it.
+### 4. The server is now started and user can send API request to it.
